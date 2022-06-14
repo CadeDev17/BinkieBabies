@@ -31,7 +31,7 @@ section{
     padding: 3rem 2%;
 }
 
-.nav-btn {
+.header .nav-btn {
     background: #5DFDFE;
     color: black;
     padding: 15px 30px;
@@ -60,7 +60,8 @@ section{
 }
 
 .nav--logo {
-    width: 175px;
+    width: 50px;
+    border-radius: 50px;
 }
 
 .title{
@@ -153,7 +154,16 @@ section{
     cursor: pointer;
     color:var(--Tusk);
     text-decoration: none;
+}
 
+.header .icons {
+    display: flex;
+    align-items: center;
+}
+
+.header .icons .nav-btn {
+    color: black;
+    font-size: 2rem;
 }
 
 .header .icons a:hover{
@@ -199,9 +209,9 @@ section{
 }
 
 .home .slides-container .slide .img img{
-    width: 75%;
+    width: 85%;
     height:490px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .home-container {
@@ -214,8 +224,10 @@ section{
     width: 40%;
 }
 
-.home-content h3 {
-    font-size: 30px;;
+.home-content h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px white;
 }
 
 .homeImg {
@@ -257,9 +269,8 @@ section{
 
 .banner-container .banner .mint-content h3{
     font-size: 3.5rem;
-    color: black;
+    color: white;
     font-weight: bold;
-    text-shadow:-3px 0px 1px white;
 }
 
 .banner-container .banner:hover img{
@@ -390,28 +401,26 @@ section{
     color: var(--main);
     font-size:2rem;
     padding:1rem 0;
+    margin: 0
+}
+
+.firepit br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 0; /* change this to whatever height you want it */
 }
 
 
-
 .roadmap .slide{
-    width: 50%;
+    width: 75%;
     padding:2rem;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
     border: 5px solid white;
     border-radius: 100px;
     position: relative;
     background:var(--main);
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
     text-align: center;
-}
-
-.right-align {
-    margin-left: auto;
-}
-
-.left-align {
-    margin-right: auto;
 }
 
 .user-info h3 {
@@ -432,17 +441,17 @@ section{
 }
 
 .roadmap .slide p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.8;
     color:white;
-    margin: 0 auto;
-    width: 400px;
+    margin: 5px auto;
+    width: 700px;
 }
 
 
 .team-container{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -581,14 +590,16 @@ section{
 @media (max-width: 500px) {
     .header {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         font-size: .5rem;
     }
 
     .home-content a,
     .home-content h3,
-    .home-img {
+    .home-content h1,
+    .home-img,
+    .navbar .quick-links {
         display: none;
     }
 
@@ -604,6 +615,12 @@ section{
 
     .icons {
         margin: 1.5rem 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .nav--logo {
+        width: 75px;
     }
 
     #search-btn {
@@ -615,7 +632,7 @@ section{
     }
 
     #main--container {
-        margin-top: 220px;
+        /* margin-top: 10px; */
         overflow-x: hidden;
     }
 
@@ -643,7 +660,7 @@ section{
     }
 
     .story .box-container .box {
-        width: 50%;
+        width: 90%;
     }
 
     .story .box-container{
@@ -652,8 +669,20 @@ section{
         align-items: center;
     }
 
+    .icons-container .faq-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-container,
     .team-content {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .team-content .icons {
+        margin: 10px auto;
+        font-size: 2rem;
     }
 
 }

@@ -1,4 +1,4 @@
-import homeImg from '../images/cluckieshome.png'
+import homeImg from '../images/BinkieUniverse.png'
 
 
 const Home = () => {
@@ -8,7 +8,8 @@ const Home = () => {
                 <div className="slide">
                     <div className="home-container">
                         <div className="home-content">
-                            <h3>Hey clucker, make sure youre following us on twitter and clucking around in our discord with the rest of the mothercluckers</h3>
+                            <h1>Binkie Babies</h1>
+                            <h3>Made by Binkie holders, for Binkie holders. CC0 Project, FREE MINT, expanding the BinkieVerse</h3>
                             <a href="https://twitter.com/cluckiesxyz" className="btn">Twitter</a>
                             <a href="https://discord.gg/ZHEpvSVCxt" className="btn">Discord</a>
                         </div>

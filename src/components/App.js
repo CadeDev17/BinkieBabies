@@ -4,7 +4,7 @@ import Countdown from 'react-countdown'
 import Web3 from 'web3'
 
 // Import Images + CSS
-import CluckieCollage from '../images/Mint.png'
+import MintBinkies from '../images/windowbinkie.png'
 import '../App.css'
 
 // Import Components
@@ -13,29 +13,13 @@ import Footer from './footer'
 import Faq from './faq'
 import Team from './team'
 import Roadmap from './roadmap'
-import ChickenCoop from './chickencoop'
-import Rarities from './rarities'
+import Binkieverse from './binkieverse'
 import Home from './home'
+import MintAmount from './mintamount'
 
 // Import ABI + Config
-import Moon_Frenz from '../abis/Moon_Frenz.json'
+import Moon_Frenz from '../abis/OpenPunks.json'
 import config from '../config.json'
-
-
-// function mintAmount({ setMintCount }) {
-// 	const [mintCount, setMintCount] = useState(0)
-
-// 	return (
-// 		<input 
-// 			class="mint-amount" 
-// 			type="number" 
-// 			placeholder="1-10" 
-// 			min="1" 
-// 			max="10" 
-// 			onChange={(e) => setMintCount(e.target.value)}>
-// 		</input>
-// 	);
-// }
 
 
 function App() {
@@ -60,6 +44,8 @@ function App() {
 
 	const [counter, setCounter] = useState(7)
 	const [isCycling, setIsCycling] = useState(false)
+
+	const [mintCount, setMintCount] = useState(0)
 
 	const loadBlockchainData = async (_web3, _account, _networkId) => {
 		// Fetch Contract, Data, etc.
@@ -153,7 +139,7 @@ function App() {
 			setIsMinting(true)
 			setIsError(false)
 
-			await openPunks.methods.mint(1).send({ from: account, value: 0 })
+			await openPunks.methods.mint(mintCount).send({ from: account, value: (mintCount * 20000000000000000) })
 				.on('confirmation', async () => {
 					const maxSupply = await openPunks.methods.maxSupply().call()
 					const totalSupply = await openPunks.methods.totalSupply().call()
@@ -191,13 +177,14 @@ function App() {
 			<Navbar web3Handler={web3Handler} account={account} explorerURL={explorerURL} />
 			<div id="content--container">
 				<Home/>
-				<section class="banner-container" id="mint">
-					<div class="banner">
-						<img src={CluckieCollage}/>
-						<div class="mint-content">
-							<h3>Supply: 1,777</h3>
-							<h3>Free Mint: 77</h3>
-							{/* <mintAmount setMintCount={setMintCount} /> */}
+				<section className="banner-container" id="mint">
+					<div className="banner">
+						<img src={MintBinkies}/>
+						<div className="mint-content">
+							<h3>Supply: 3,333</h3>
+							<h3>FREE MINT</h3>
+							<h3>CC0</h3>
+							{/* <MintAmount setMintCount={setMintCount} /> */}
 							{/* {isMinting ? (
 								<Spinner animation="border" className='p-3 m-2' />
 							) : (
@@ -206,9 +193,8 @@ function App() {
 						</div>
 					</div>
 				</section>
-				<ChickenCoop/>
+				<Binkieverse/>
 				<Roadmap/>
-				<Rarities/>
 				<Team/>
 				<Faq/>
 				<Footer/>

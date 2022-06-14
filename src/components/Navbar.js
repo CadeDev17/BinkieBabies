@@ -1,5 +1,5 @@
 
-import fontLogo from '../images/main.png'
+import fontLogo from '../images/Easter2.png'
 
 const Navbar = ({ web3Handler, account, explorerURL }) => {
     return (
@@ -8,32 +8,33 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
                 <img class="nav--logo" src={fontLogo} />
 
                 <div className="navbar">
-                    <a href="#home">The Farm</a>
-                    <a href="#mint">Mint</a>
-                    <a href="#rarities">Rarities</a>
-                    <a href="#chickencoop">The Chicken Coop</a>
-                    <a href="#roadmap">Roadmap</a>
-                    <a href="#faq">FAQ</a>
+                    <a className="quick-links" href="#home">Home</a>
+                    <a className="quick-links" href="#mint">Mint</a>
+                    <a className="quick-links" href="#rarities">Rarities</a>
+                    <a className="quick-links" href="#chickencoop">BinkieVerse</a>
+                    <a className="quick-links" href="#roadmap">Roadmap</a>
+                    <a className="quick-links" href="#faq">FAQ</a>
                     
                 </div>
 
                 <div className="icons">
-                    <a href="#" id="search-btn" className="fa-brands fa-twitter"></a>
-                    <a href="https://discord.gg/ZHEpvSVCxt" id="cart-btn" className="fa-brands fa-discord"></a>
-                    <a href="#" id="login-btn" className="fa-brands fa-fort-awesome"></a>
-                </div>
+                    <div>
+                        <a href="#" id="search-btn" className="fa-brands fa-twitter search-btn"></a>
+                        <a href="https://discord.gg/ZHEpvSVCxt" id="cart-btn" className="fa-brands fa-discord"></a>
+                    </div>
 
-                {account ? (
-                    <a
-                    href={`${explorerURL}/address/${account}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="nav-btn">
-                        {account.slice(0, 5) + '...' + account.slice(38, 42)}
-                    </a>
-                ) : (
-                    <button onClick={web3Handler} className="nav-btn">Connect Wallet</button>
-                    )}
+                    {account ? (
+                        <a
+                        href={`${explorerURL}/address/${account}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="nav-btn">
+                            {account.slice(0, 5) + '...' + account.slice(38, 42)}
+                        </a>
+                    ) : (
+                        <button onClick={web3Handler} className="nav-btn">Connect Wallet</button>
+                        )}
+                </div>
             </header>
         </nav>
     )
