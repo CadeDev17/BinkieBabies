@@ -4,7 +4,7 @@ const Binkieverse = () => {
     return (
         <section>
             <section id="Binkieverse">
-                <h1 className="title"> Meet the <span>Binkie Babies</span> <a href="https://discord.gg/ZHEpvSVCxt">Join the binkieverse</a> </h1>
+                <h1 className="title"> Meet the <span>Binkie Babies</span> <a href="https://discord.gg/binkies">Join the binkieverse</a> </h1>
             </section>
             <section className="firepit">
                 <div className="content">
@@ -28,7 +28,7 @@ const Binkieverse = () => {
                     <p>
                     Join the genesis holders in BinkyVille and help us bridge the gap between Web3 and the physical world. We can’t wait to welcome our newest member: YOU!
                     </p>
-                    <a href="https://discord.gg/ZHEpvSVCxt" className="btn">Discord</a>
+                    <a href="https://discord.gg/binkies" className="btn">Discord</a>
                 </div>
 
                 <div className="img">

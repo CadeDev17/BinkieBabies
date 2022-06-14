@@ -20,7 +20,7 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
                 <div className="icons">
                     <div>
                         <a href="#" id="search-btn" className="fa-brands fa-twitter search-btn"></a>
-                        <a href="https://discord.gg/ZHEpvSVCxt" id="cart-btn" className="fa-brands fa-discord"></a>
+                        <a href="https://discord.gg/binkies" id="cart-btn" className="fa-brands fa-discord"></a>
                     </div>
 
                     {account ? (

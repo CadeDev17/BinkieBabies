@@ -6,7 +6,7 @@ const Team = () => {
     return (
         <section>
             <section className="teams">
-                <h1 className="title">Our <span>team</span></h1>
+                <h1 className="title">Binkie Babies <span>Team</span></h1>
             </section>
 
 
@@ -37,7 +37,7 @@ const Team = () => {
                                 <a className="fas fa-user">Blockchain Developer</a>
                             </div>
                             <h3>rtpyrceD_</h3>
-                            <p>Been in crypto for a minute, satoshi is my dad. I code for fun on the weekends.</p>
+                            <p>Been in crypto for a minute, satoshi is actually my dad. I code for fun on the weekends.</p>
                         </div>
                     </div>
                 </div>

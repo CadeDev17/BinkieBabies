@@ -24,10 +24,8 @@ const Footer = () => {
                     
                     <div className="box">
                         <h3>Follow Us</h3>
-                        <a href="https://twitter.com/cluckiesxyz"> <i className="fab fa-twitter"></i> twitter</a>
-                        <a href="https://www.instagram.com/cluckiesnft/"> <i className="fab fa-instagram"></i> instagram</a>
-                        <a href="https://discord.gg/ZHEpvSVCxt"> <i className="fab fa-discord"></i> Discord</a>
-                        <a href="https://www.tiktok.com/@cluckiesnft"> <i className="fab fa-tiktok"></i> Tik Tok</a>
+                        <a href="https://twitter.com/binkiebabies"> <i className="fab fa-twitter"></i> Twitter</a>
+                        <a href="https://discord.gg/binkies"> <i className="fab fa-discord"></i> Discord</a>
                     </div>
                 </div>
             </section>

@@ -139,7 +139,7 @@ section{
 .header .navbar a{
     font-size:1.7rem;
     color: var(--Tusk);
-    margin: 0 1rem;
+    margin: 0 2.5rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -159,6 +159,10 @@ section{
 .header .icons {
     display: flex;
     align-items: center;
+}
+
+.header .icons div {
+    margin-right: 15px;
 }
 
 .header .icons .nav-btn {
@@ -451,7 +455,7 @@ section{
 
 .team-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -541,6 +545,8 @@ section{
 
 .footer{
     background:var(--main);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .footer-box-container{
@@ -578,6 +584,8 @@ section{
     background:var(--main);
     color:#fff;
     font-size: 2rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .credit span{
