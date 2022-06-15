@@ -1,4 +1,4 @@
-import coopImg from '../images/Binkieverse.png'
+import coopImg from '../images/heartBinkie.png'
 
 const Binkieverse = () => {
     return (

@@ -1,9 +1,4 @@
-import BuildingCoop from '../images/buildingcoop.png'
-import LayingSeason from '../images/layingseason.png'
-import Staking from '../images/staking.png'
-import BabyCluck from '../images/babycluck.png'
-import Merch from '../images/merch.png'
-import Roadmap2 from '../images/Roadmap2.png'
+import BuildingCoop from '../images/roadmap.png'
 
 const Roadmap = () => {
     return (

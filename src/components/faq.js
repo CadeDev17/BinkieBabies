@@ -16,7 +16,7 @@ const Faq = () => {
                     <div className="icons faq-content">
                         <i className="fas fa-money-bill-alt"></i>
                         <h3>What is the cost?</h3>
-                        <p>FREEEEEEE.99</p>
+                        <p>FREEEEEEE</p>
                     </div>
 
                     <div className="icons faq-content">
@@ -27,8 +27,8 @@ const Faq = () => {
 
                     <div className="icons faq-content">
                         <i className="fas fa-egg"></i>
-                        <h3>Guaranteed free mint spots are for Genesis Binkies holders?</h3>
-                        <p>1,111 (Can mint up to 2 Binkie Babies)</p>
+                        <h3>Anything for Genesis Binkies Holders?</h3>
+                        <p>You bet your cute ass binkie baby we do ;)</p>
                     </div>
                 </div>
             </section>

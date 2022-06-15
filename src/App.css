@@ -207,25 +207,16 @@ section{
     align-items: center;
 }
 
-.home .slides-container .slide .img{
-    flex: 1 1 40rem;
-    margin: 3rem;
-}
-
-.home .slides-container .slide .img img{
-    width: 85%;
-    height:490px;
-    margin: 20px auto 0;
-}
-
-.home-container {
+#home .home-container {
     display: flex;
-    padding-right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0;    
+
 }
 
 .home-content {
-    margin: auto 100px;
-    width: 40%;
+    padding-right: 250px;
 }
 
 .home-content h1 {
@@ -235,7 +226,7 @@ section{
 }
 
 .homeImg {
-    width: 60%;
+    width: 490px;
     border-radius: 25px;
 }
 
@@ -435,6 +426,7 @@ section{
     height:30rem;
     width:30rem;
     object-fit: cover;
+    border-radius: 50px;;
 }
 
 .roadmap .slide .user h3{

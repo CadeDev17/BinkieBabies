@@ -10,8 +10,7 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
                 <div className="navbar">
                     <a className="quick-links" href="#home">Home</a>
                     <a className="quick-links" href="#mint">Mint</a>
-                    <a className="quick-links" href="#rarities">Rarities</a>
-                    <a className="quick-links" href="#chickencoop">BinkieVerse</a>
+                    <a className="quick-links" href="#Binkieverse">BinkieVerse</a>
                     <a className="quick-links" href="#roadmap">Roadmap</a>
                     <a className="quick-links" href="#faq">FAQ</a>
                     
@@ -19,7 +18,7 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
 
                 <div className="icons">
                     <div>
-                        <a href="#" id="search-btn" className="fa-brands fa-twitter search-btn"></a>
+                        <a href="https://twitter.com/binkiebabies" id="search-btn" className="fa-brands fa-twitter search-btn"></a>
                         <a href="https://discord.gg/binkies" id="cart-btn" className="fa-brands fa-discord"></a>
                     </div>
 

@@ -13,9 +13,10 @@ const Home = () => {
                             <a href="https://twitter.com/binkiebabies" className="btn">Twitter</a>
                             <a href="https://discord.gg/binkies" className="btn">Discord</a>
                         </div>
-                        <div className="img home-img">
+                        <div>
                             <img className="homeImg" src={homeImg} alt=""/>
                         </div>
+                    
                     </div>
                 </div>
             </div>
