@@ -1,4 +1,4 @@
-# Open Punks
+# Binkie Babies
 
 ## Technology Stack & Tools
 
@@ -64,28 +64,13 @@ In a separate CMD prompt/terminal run:
 
 - If deploying to Polygon Mumbai testnet, you may use this MATIC faucet: [https://faucet.polygon.technology/](https://faucet.polygon.technology/)
 
-### 1. Setup your .env file
-Create a .env file in the root directory of your project, and fill in the following:
-- DEPLOYER_PRIVATE_KEY="YOUR_PRIVATE_KEY"
-- INFURA_API_KEY="PROJECT_ID"
-- ETHERSCAN_API_KEY="API_TOKEN"
-
-- PROJECT_NAME="YOUR_PROJECT_NAME"
-- PROJECT_SYMBOL="YOUR_PROJECT_SYMBOL"
-- MINT_COST=0
-- MAX_SUPPLY=1000
-
-- IPFS_IMAGE_METADATA_CID="IPFS_CID"
-- IPFS_HIDDEN_IMAGE_METADATA_CID="IPFS_CID"
-- NFT_MINT_DATE="Oct 27, 2021 20:00:00"
-
 ### 2. Run your migrations
 - For Rinkeby testnet: `truffle migrate --reset --network rinkeby`
 - For Polygon Mainnet: `truffle migrate --reset --network matic`
 
 ### 3. Verify your contracts
-- For Rinkeby testnet: `truffle run verify OpenPunks --network rinkeby`
-- For Polygon Mainnet: `truffle run verify OpenPunks --network matic`
+- For Rinkeby testnet: `truffle run verify BinkieBabies --network rinkeby`
+- For Polygon Mainnet: `truffle run verify BinkieBabies --network matic`
 
 ## Preparing for Frontend Deployment
 ### 1. Create or Login to your GitHub account

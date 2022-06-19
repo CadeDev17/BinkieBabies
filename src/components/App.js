@@ -18,7 +18,7 @@ import Home from './home'
 import MintAmount from './mintamount'
 
 // Import ABI + Config
-import Moon_Frenz from '../abis/OpenPunks.json'
+import BinkieBabies from '../abis/BinkieBabies.json'
 import config from '../config.json'
 
 
@@ -50,7 +50,7 @@ function App() {
 	const loadBlockchainData = async (_web3, _account, _networkId) => {
 		// Fetch Contract, Data, etc.
 		try {
-			const openPunks = new _web3.eth.Contract(Moon_Frenz.abi, Moon_Frenz.networks[_networkId].address)
+			const openPunks = new _web3.eth.Contract(BinkieBabies.abi, BinkieBabies.networks[_networkId].address)
 			setOpenPunks(openPunks)
 
 			const maxSupply = await openPunks.methods.maxSupply().call()
@@ -139,7 +139,7 @@ function App() {
 			setIsMinting(true)
 			setIsError(false)
 
-			await openPunks.methods.mint(mintCount).send({ from: account, value: (mintCount * 20000000000000000) })
+			await openPunks.methods.mint(mintCount).send({ from: account, value: 0 })
 				.on('confirmation', async () => {
 					const maxSupply = await openPunks.methods.maxSupply().call()
 					const totalSupply = await openPunks.methods.totalSupply().call()

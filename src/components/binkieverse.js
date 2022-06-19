@@ -12,7 +12,7 @@ const Binkieverse = () => {
                     <p>
                     You know how the genesis Binkies collection said they are hopping around and banging on the Ethereum blockchain?
                     Well... some Binkies weren't playing it very safe and now have <strong>Binkie Babies</strong>, a collection of 3,333
-                    babies trying to find their parents out in the wild west of web3.
+                    babies trying to find their parents out in the wild west of Web3.
                     </p>
                     <br></br>
                     <p>

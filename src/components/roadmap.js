@@ -20,17 +20,16 @@ const Roadmap = () => {
                             </div>
                             <p>
                                 • Get approval from the origional Binkies project. Then we will begin to create Binkie Babies 
-                                in the best interest of the Binkies community.
+                                in the best interest of the Binkies community. √
                             </p> 
                             <br></br>
                             <p>
-                                • After that, we will quickly begin constructing the BB images, smart contract, website,
-                                and planning for all of the AWESOME things we want to do with our Binkie fam.
+                                • After that, we will begin constructing the BB images, smart contract, website,
+                                and planning for all of the AWESOME things we want to do with our Binkie fam. √
                             </p>
                             <br></br>
                             <p>
-                                • At 150 ETH traded we will be taking a snapshot of Binkie Baby holders and AIRDROPPING 5 1/1 Binkie 
-                                Babies to our holder fam.
+                                • At 150 ETH traded we will be taking a snapshot of Binkie Baby holders and AIRDROPPING 5 1/1 Binkie Babies to our holder fam.
                             </p>
                             <br></br>
                             <p>
@@ -40,17 +39,16 @@ const Roadmap = () => {
                             </p>
                             <br></br>
                             <p>
-                                • At 500 ETH volume traded we will be starting our staking mechanism where holders of BOTH Binkies 
-                                and Binkie Babies will be able to stake for $BINK (token name subject to change)
-                            </p>
-                            <br></br>
-                            <p>
                                • At 750 ETH volume traded we will be having a GIVEAWAY challenge for all our Binkie Babies holders to be able to
-                                participate in. Will it be for 1 ETH, 3 ETH, 5 ETH??? who knows... we do ;)
+                                participate in. Will it be for 1 ETH, 3 ETH, 5 ETH??? who knows... we do!
                             </p>
                             <br></br>
                             <p>
-                               • At 1,000 ETH volume traded we have a special suprise for our community but until then, our lips are sealed.
+                               • At 1,000 ETH volume traded... Just wait and see ;)
+                            </p>
+                            <br></br>
+                            <p>
+                               • All Binkie Babies holders will have FULL access to all of the utilities of the MAIN Binkies collection!!
                             </p>
                         </div>
 
