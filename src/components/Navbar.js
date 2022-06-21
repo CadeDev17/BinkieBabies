@@ -16,10 +16,14 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
                     
                 </div>
 
+                <div className="mobile-nav-title">
+                    <h2>Binkie Babies</h2>
+                </div>
+
                 <div className="icons">
                     <div>
                         <a href="https://twitter.com/binkiebabies" id="search-btn" className="fa-brands fa-twitter search-btn"></a>
-                        <a href="https://discord.gg/binkies" id="cart-btn" className="fa-brands fa-discord"></a>
+                        <a href="https://discord.gg/M8AvNpv5dT" id="cart-btn" className="fa-brands fa-discord"></a>
                     </div>
 
                     {account ? (

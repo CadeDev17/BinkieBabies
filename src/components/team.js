@@ -37,7 +37,7 @@ const Team = () => {
                                 <a className="fas fa-user">Blockchain Developer</a>
                             </div>
                             <h3>rtpyrceD_</h3>
-                            <p>Been in crypto for a minute, satoshi is actually my dad. I code for fun on the weekends.</p>
+                            <p>ETH Maxi. I code for fun on the weekends.</p>
                         </div>
                     </div>
                 </div>

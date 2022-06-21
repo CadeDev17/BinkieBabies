@@ -24,18 +24,18 @@ const Roadmap = () => {
                             </p> 
                             <br></br>
                             <p>
-                                • After that, we will begin constructing the BB images, smart contract, website,
+                                • Begin constructing the Binkie Baby images, smart contract, website,
                                 and planning for all of the AWESOME things we want to do with our Binkie fam. √
                             </p>
                             <br></br>
                             <p>
-                                • At 150 ETH traded we will be taking a snapshot of Binkie Baby holders and AIRDROPPING 5 1/1 Binkie Babies to our holder fam.
+                                • At 150 ETH volume traded we will be starting our Binkie Baby GAMES in our discord to see who has what it takes to win our giveaway challenges
                             </p>
                             <br></br>
                             <p>
-                                • At 300 ETH volume traded we will be creating our Binkie Babies ecommerce store where we will have
-                                TONS of awesome merchandise available for our Binkie fam for SUPER CHEAP. (Profits go to further 
-                                advancements in Binkies main project)
+                                • At 300 ETH volume traded we will begin creating our Binkie Babies ecommerce store where we will have
+                                TONS of awesome merchandise available for our Binkie fam for SUPER CHEAP. (% of profits go to further 
+                                advancements in Binkies genesis collection)
                             </p>
                             <br></br>
                             <p>
@@ -48,7 +48,7 @@ const Roadmap = () => {
                             </p>
                             <br></br>
                             <p>
-                               • All Binkie Babies holders will have FULL access to all of the utilities of the MAIN Binkies collection!!
+                               • <strong>All Binkie Babies holders will have FULL access to all of the utilities of the MAIN Binkies collection!!</strong>
                             </p>
                         </div>
 

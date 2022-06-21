@@ -184,12 +184,22 @@ function App() {
 							<h3>Supply: 3,333</h3>
 							<h3>FREE MINT</h3>
 							<h3>CC0</h3>
-							{/* <MintAmount setMintCount={setMintCount} /> */}
-							{/* {isMinting ? (
+							{/* <MintAmount setMintCount={setMintCount} />
+							{isMinting ? (
 								<Spinner animation="border" className='p-3 m-2' />
 							) : (
 								<button onClick={mintNFTHandler} className='mint-button'>Mint</button>
-							)} */}
+							)}
+
+							{ownerOf.length > 0 &&
+								<p className="view-nft"><small>View your NFT(s) on
+									<a
+										href={`${openseaURL}/assets/${openPunks._address}/${ownerOf[0]}`}
+										target="_blank"
+										style={{ display: 'inline-block', marginLeft: '3px' }}>
+										OpenSea
+									</a>
+								</small></p>} */}
 						</div>
 					</div>
 				</section>

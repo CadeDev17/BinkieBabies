@@ -2,7 +2,7 @@ function mintAmount({ setMintCount }) {
 
 	return (
 		<input 
-			class="mint-amount" 
+			className="mint-amount" 
 			type="number" 
 			placeholder="1-10" 
 			min="1" 

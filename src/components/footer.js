@@ -23,7 +23,7 @@ const Footer = () => {
                     <div className="box">
                         <h3>Follow Us</h3>
                         <a href="https://twitter.com/binkiebabies"> <i className="fab fa-twitter"></i> Twitter</a>
-                        <a href="https://discord.gg/binkies"> <i className="fab fa-discord"></i> Discord</a>
+                        <a href="https://discord.gg/M8AvNpv5dT"> <i className="fab fa-discord"></i> Discord</a>
                     </div>
                 </div>
             </section>
