@@ -127,8 +127,8 @@ function App() {
 			return
 		}
 
-		if (ownerOf.length > 100) {
-			window.alert('You\'ve minted enough!')
+		if (ownerOf.length >= 10) {
+			window.alert('Woah, save some babies for the rest of us!')
 			return
 		}
 
