@@ -36,7 +36,7 @@ const Team = () => {
                                 <a className="fas fa-calendar calendar-icon">3+ yrs</a>
                                 <a className="fas fa-user">Blockchain Developer</a>
                             </div>
-                            <h3>rtpyrceD_</h3>
+                            <h3>General Bink</h3>
                             <p>ETH Maxi. I code for fun on the weekends.</p>
                         </div>
                     </div>

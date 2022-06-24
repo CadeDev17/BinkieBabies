@@ -10,7 +10,7 @@ const Faq = () => {
                     <div className="icons faq-content">
                         <i className="fas fa-bookmark"></i>
                         <h3>What are the minting limitations?</h3>
-                        <p>Per wallet: unlimited // Per transaction: 10</p>
+                        <p>Per wallet: 10 // Per transaction: 10</p>
                     </div>
 
                     <div className="icons faq-content">
