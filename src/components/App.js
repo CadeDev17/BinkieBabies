@@ -122,10 +122,6 @@ function App() {
 	}
 
 	const mintNFTHandler = async () => {
-		if (revealTime > new Date().getTime()) {
-			window.alert('Minting is not live yet!')
-			return
-		}
 
 		if (ownerOf.length >= 10) {
 			window.alert('Woah, save some babies for the rest of us!')
