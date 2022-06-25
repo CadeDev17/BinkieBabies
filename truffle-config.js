@@ -27,8 +27,8 @@ module.exports = {
 			   )						
 			},						
 			network_id: 1,
-			gasPrice: 80000000000,
-			gas: 6721975				 
+			gasPrice: 20000000000,
+			gas: 6000000				 
 		 },
 
 		matic: {
