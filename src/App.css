@@ -79,6 +79,10 @@ section{
     box-shadow: 0px 0px 100px gold;
 }
 
+#mint .mint-content .soldout {
+    color: #5DFDFE;
+}
+
 .nav--logo {
     width: 50px;
     border-radius: 50px;

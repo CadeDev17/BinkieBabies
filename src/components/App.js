@@ -180,7 +180,8 @@ function App() {
 							<h3>Supply: 3,333</h3>
 							<h3>FREE MINT</h3>
 							<h3>CC0</h3>
-							<MintAmount setMintCount={setMintCount} />
+							<h3 className="soldout">SOLD OUT!</h3>
+							{/* <MintAmount setMintCount={setMintCount} />
 							{isMinting ? (
 								<Spinner animation="border" className='p-3 m-2' />
 							) : (
@@ -195,7 +196,7 @@ function App() {
 										style={{ display: 'inline-block', marginLeft: '3px' }}>
 										OpenSea
 									</a>
-								</small></p>}
+								</small></p>} */}
 						</div>
 					</div>
 				</section>

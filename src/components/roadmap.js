@@ -19,7 +19,7 @@ const Roadmap = () => {
                                 </div>
                             </div>
                             <p>
-                                • Get approval from the origional Binkies project. Then we will begin to create Binkie Babies 
+                                • Get approval from the original Binkies project. Then we will begin to create Binkie Babies 
                                 in the best interest of the Binkies community. √
                             </p> 
                             <br></br>

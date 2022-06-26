@@ -14,10 +14,10 @@ const Footer = () => {
 
                     <div className="box">
                         <h3>Extra Links</h3>
-                        <a href="https://opensea.io/"> <i className="fa fa-arrow-right"></i> OpenSea</a>
-                        <a href="https://etherscan.io/"> <i className="fa fa-arrow-right"></i> Etherscan</a>
-                        <a href="https://looksrare.org/"> <i className="fa fa-arrow-right"></i> Looks Rare</a>
-                        <a href="https://binkies.io/"> <i className="fa fa-arrow-right"></i> Binkies Lab</a>
+                        <a href="https://opensea.io/collection/binkie-babies"> <i className="fa fa-arrow-right"></i> OpenSea</a>
+                        <a href="https://etherscan.io/address/0x1bb08f4c63e891049fbb716fe4636392e32b4f7c"> <i className="fa fa-arrow-right"></i> Etherscan</a>
+                        <a href="https://www.gem.xyz/"> <i className="fa fa-arrow-right"></i> Rarity Tool</a>
+                        <a href="https://binkies.io/"> <i className="fa fa-arrow-right"></i> Binkie Academy</a>
                     </div>
                     
                     <div className="box">
